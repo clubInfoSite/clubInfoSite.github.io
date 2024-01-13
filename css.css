@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#membres ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    color: white;
+    border: solid 3px;
+    border-color: gray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+header>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+}
+
+.gauche{
+    display: flex;
+    justify-content: left;
+    width: auto;
+}
+
+.droite{
+    display: flex;
+    justify-content: right;
+    width: auto;
+}
+
+#nom{
+    font-size: 110%;
+    font-weight: 700;
+    margin: 0;
+}
+
+li{
+    padding: 5px;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+header li:hover{
+    background-color: #111;
+}
