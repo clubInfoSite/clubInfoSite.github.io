@@ -8,3 +8,10 @@ div{
 body{
     background-color: rgb(168, 45, 45);
 }
+h2{
+    color: bisque
+}
+h1{
+    text-decoration: double underline;
+    color: bisque; 
+}
