@@ -12,6 +12,10 @@ h1{
     justify-content: space-around;
 }
 
+#membres {
+    text-align: center;
+}
+
 header{
     color: white;
     border: solid 3px;
@@ -55,7 +59,7 @@ li{
     padding: 5px;
 }
 
-li a{
+header li a{
     display: block;
     color: white;
     text-align: center;
