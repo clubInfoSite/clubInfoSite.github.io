@@ -3,15 +3,19 @@ iframe{
 }
 div{
     color: bisque;
-    size: 50cm;
+    size: 500cm;
 }
 body{
     background-color: rgb(168, 45, 45);
 }
-h2{
+h1{
     color: bisque
 }
-h1{
-    text-decoration: double underline;
+h2{
+    font-size: 500%;
+    text-decoration: double double underline;
     color: bisque; 
+}
+a{
+    color: #ffd700;
 }
