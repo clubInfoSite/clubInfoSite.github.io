@@ -3,8 +3,15 @@ body{
     font-size: 20px;
 }
 
-h1{
+#accueil{
     text-align: center;
+    color: white;
+    background-image: url("codeimg.jpg");
+    background-size: 100%;
+}
+
+.highlights{
+    background-color: rgba(76, 175, 80, 0.6);
 }
 
 #membres ul{
