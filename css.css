@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-size: 20px;
+    background-color: antiquewhite;
 }
 
 #accueil{
@@ -8,6 +9,8 @@ body{
     color: white;
     background-image: url("codeimg.jpg");
     background-size: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .highlights{
@@ -23,6 +26,14 @@ body{
     text-align: center;
 }
 
+#decouvertes{
+    text-align: center;
+}
+
+#projets{
+    text-align: center;
+}
+
 header{
     color: white;
     border: solid 3px;
@@ -32,7 +43,6 @@ header{
     top: 0;
     right: 0;
     margin: 0;
-    z-index: 1;
 }
 
 header>ul{
@@ -75,4 +85,13 @@ header li a{
 
 header li:hover{
     background-color: #111;
+}
+
+.img-gauche{
+    display: flex;
+    justify-content: space-around;
+}
+
+.description{
+    width: 45%;
 }
