@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-size: 20px;
+    font-size: 150%;
     background-color: antiquewhite;
 }
 
@@ -32,6 +32,27 @@ body{
 
 #projets{
     text-align: center;
+}
+
+.listeProjets{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projet{
+    border: solid 3px black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.projet a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 
 header{
@@ -90,6 +111,7 @@ header li:hover{
 .img-d{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .description{
